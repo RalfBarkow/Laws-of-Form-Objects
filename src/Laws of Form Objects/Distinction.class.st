@@ -7,6 +7,10 @@ Class {
 	#category : #'Laws of Form Objects'
 }
 
+{ #category : #accessing }
+Distinction class >> named: aName [ 
+]
+
 { #category : #comparing }
 Distinction >> = aDistinction [
 
