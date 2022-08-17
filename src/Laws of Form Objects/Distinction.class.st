@@ -2,6 +2,8 @@ Class {
 	#name : #Distinction,
 	#superclass : #Object,
 	#instVars : [
+		'form',
+		'cross',
 		'name'
 	],
 	#category : #'Laws of Form Objects'
