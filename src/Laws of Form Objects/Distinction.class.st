@@ -1,6 +1,9 @@
 Class {
 	#name : #Distinction,
 	#superclass : #Object,
+	#instVars : [
+		'name'
+	],
 	#category : #'Laws of Form Objects'
 }
 
@@ -18,4 +21,5 @@ Distinction >> hash [
 
 { #category : #accessing }
 Distinction >> name [
+	^ name
 ]
