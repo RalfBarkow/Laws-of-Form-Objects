@@ -4,8 +4,20 @@ Class {
 	#instVars : [
 		'distinctions'
 	],
+	#classInstVars : [
+		'distinctions'
+	],
 	#category : #'Laws of Form Objects'
 }
+
+{ #category : #accessing }
+LoForm class >> cross [
+]
+
+{ #category : #accessing }
+LoForm class >> distinctions [
+	^ distinctions
+]
 
 { #category : #accessing }
 LoForm class >> distinguish: aString [ 
@@ -13,7 +25,7 @@ LoForm class >> distinguish: aString [
 
 { #category : #accessing }
 LoForm >> cross [
-	"This is a new method"
+	^ cross
 ]
 
 { #category : #accessing }
@@ -32,6 +44,7 @@ LoForm >> distinctionNamed: aName [
 
 { #category : #accessing }
 LoForm >> distinctions [
+	^ distinctions
 ]
 
 { #category : #accessing }
